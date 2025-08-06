@@ -257,7 +257,7 @@ export default function Contact() {
                   <div key={index} className="bg-gray-50 rounded-2xl p-6 hover:shadow-lg transition-all duration-300">
                     <div className="flex items-start space-x-4">
                       <div className="w-12 h-12 bg-african-purple bg-opacity-10 rounded-xl flex items-center justify-center flex-shrink-0">
-                        <info.icon className="w-6 h-6 text-african-purple" />
+                        <info.icon className="w-6 h-6 text-white" />
                       </div>
                       <div className="flex-1">
                         <h3 className="text-lg font-semibold text-gray-900 mb-2">{info.title}</h3>

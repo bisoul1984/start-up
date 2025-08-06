@@ -88,15 +88,15 @@ const Footer = () => {
             <h3 className="font-semibold text-lg">Get In Touch</h3>
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
-                <Mail className="w-5 h-5 text-african-teal" />
+                <Mail className="w-5 h-5 text-white" />
                 <span className="text-gray-300 text-sm">wondwossenhailu7@gmail.com</span>
               </div>
               <div className="flex items-center space-x-3">
-                <Phone className="w-5 h-5 text-african-teal" />
+                <Phone className="w-5 h-5 text-white" />
                 <span className="text-gray-300 text-sm">+251 913 266 990</span>
               </div>
               <div className="flex items-center space-x-3">
-                <MapPin className="w-5 h-5 text-african-teal" />
+                <MapPin className="w-5 h-5 text-white" />
                 <span className="text-gray-300 text-sm">Addis Ababa, Ethiopia</span>
               </div>
             </div>
