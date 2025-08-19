@@ -5,16 +5,16 @@ import { Users, Target, Globe, Award, Heart, Brain, Zap } from 'lucide-react'
 export default function About() {
   const teamMembers = [
     {
-      name: 'Selomon Tesfaye',
+      name: 'Wondwossen Hailhu',
       role: 'CEO & Co-Founder',
-      bio: 'Former healthcare executive with 15+ years experience in African healthcare systems. PhD in Public Health from University of Nairobi.',
-      expertise: 'Healthcare Systems, Public Policy, AI Ethics'
+      bio: 'Software engineer and AWS certified professional with management experience and over five years of experience.',
+      expertise: 'Software Engineering, AWS Cloud, Management'
     },
     {
-      name: 'Almaz Tesema',
-      role: 'CTO & Co-Founder',
-      bio: 'Tech entrepreneur and former Google engineer. Built scalable systems serving millions of users across Africa.',
-      expertise: 'AI/ML, System Architecture, Product Development'
+      name: 'Bisrate Tadesse',
+      role: 'Co-Founder',
+      bio: 'Experienced software engineer with strong project management background.',
+      expertise: 'Software Engineering, Project Management, Product Development'
     },
     {
       name: 'Girma Tadesse',
