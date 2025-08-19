@@ -5,20 +5,20 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'W&B - Real Solutions for Africa. Powered by Intelligence.',
-  description: 'We use AI and human-centered design to solve Africa\'s most urgent challenges — from health to logistics, education to emergency response.',
+  title: 'W&B - Redefining What’s Possible for Africa. Africa, Reimagined.',
+  description: 'We harness AI and human-centered design to transform Africa’s most pressing challenges into opportunities — from health to logistics, education to emergency response, and beyond.',
   keywords: 'African tech, AI solutions, healthcare, education, agriculture, emergency response, innovation, Africa',
   authors: [{ name: 'W&B' }],
   openGraph: {
-    title: 'W&B - Real Solutions for Africa',
-    description: 'We use AI and human-centered design to solve Africa\'s most urgent challenges.',
+    title: 'W&B - Redefining What’s Possible for Africa. Africa, Reimagined.',
+    description: 'We harness AI and human-centered design to transform Africa’s most pressing challenges into opportunities — from health to logistics, education to emergency response, and beyond.',
     type: 'website',
     locale: 'en_US',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'W&B - Real Solutions for Africa',
-    description: 'We use AI and human-centered design to solve Africa\'s most urgent challenges.',
+    title: 'W&B - Redefining What’s Possible for Africa. Africa, Reimagined',
+    description: 'We harness AI and human-centered design to transform Africa’s most pressing challenges into opportunities — from health to logistics, education to emergency response, and beyond.',
   },
   robots: {
     index: true,

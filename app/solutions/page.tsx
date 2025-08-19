@@ -4,14 +4,14 @@ import { Heart, Shield, BookOpen, Leaf, TrendingUp, Zap, Brain, Users, Globe, Ta
 
 export default function Solutions() {
   const solutions = [
-                    {
-                  id: 'healthcare',
-                  icon: Heart,
-                  title: 'Healthcare Access',
-                  color: 'text-african-purple',
-                  bgColor: 'bg-african-purple',
+    {
+      id: 'healthcare',
+      icon: Heart,
+      title: 'Healthcare Access',
+      color: 'text-african-purple',
+      bgColor: 'bg-african-purple',
       problems: [
-        'Critical care delays in rural areas',
+        'Critical care delays in urban and rural areas',
         'Inefficient hospital resource allocation',
         'Limited access to specialist care'
       ],
@@ -32,12 +32,12 @@ export default function Solutions() {
         }
       ]
     },
-                    {
-                  id: 'emergency',
-                  icon: Shield,
-                  title: 'Emergency Response & Mobility',
-                  color: 'text-african-teal',
-                  bgColor: 'bg-african-teal',
+    {
+      id: 'emergency',
+      icon: Shield,
+      title: 'Emergency Response & Mobility',
+      color: 'text-african-teal',
+      bgColor: 'bg-african-teal',
       problems: [
         'Slow emergency response times',
         'Poor coordination between services',
@@ -53,12 +53,12 @@ export default function Solutions() {
         }
       ]
     },
-                    {
-                  id: 'education',
-                  icon: BookOpen,
-                  title: 'Education Access & Optimization',
-                  color: 'text-african-green',
-                  bgColor: 'bg-african-green',
+    {
+      id: 'education',
+      icon: BookOpen,
+      title: 'Education Access & Optimization',
+      color: 'text-african-green',
+      bgColor: 'bg-african-green',
       problems: [
         'Poor learning outcomes tracking',
         'Inefficient resource allocation',
@@ -81,12 +81,12 @@ export default function Solutions() {
         }
       ]
     },
-                    {
-                  id: 'agriculture',
-                  icon: Leaf,
-                  title: 'Agricultural Intelligence & Food Systems',
-                  color: 'text-african-yellow',
-                  bgColor: 'bg-african-yellow',
+    {
+      id: 'agriculture',
+      icon: Leaf,
+      title: 'Agricultural Intelligence & Food Systems',
+      color: 'text-african-yellow',
+      bgColor: 'bg-african-yellow',
       problems: [
         'Poor crop yield predictions',
         'Inefficient market access',
@@ -109,12 +109,12 @@ export default function Solutions() {
         }
       ]
     },
-                    {
-                  id: 'urban',
-                  icon: TrendingUp,
-                  title: 'Data for Policy & Urban Development',
-                  color: 'text-primary-600',
-                  bgColor: 'bg-primary-600',
+    {
+      id: 'urban',
+      icon: TrendingUp,
+      title: 'Data for Policy & Urban Development',
+      color: 'text-primary-600',
+      bgColor: 'bg-primary-600',
       problems: [
         'Lack of data-driven policy making',
         'Inefficient urban planning',
@@ -130,12 +130,12 @@ export default function Solutions() {
         }
       ]
     },
-                    {
-                  id: 'custom',
-                  icon: Zap,
-                  title: 'Custom Tech Solutions for Public Good',
-                  color: 'text-accent-700',
-                  bgColor: 'bg-accent-700',
+    {
+      id: 'custom',
+      icon: Zap,
+      title: 'Custom Tech Solutions for Public Good',
+      color: 'text-accent-700',
+      bgColor: 'bg-accent-700',
       problems: [
         'Generic solutions not fitting local needs',
         'High implementation costs',
@@ -156,7 +156,7 @@ export default function Solutions() {
   return (
     <main className="min-h-screen">
       <Navigation />
-      
+
       {/* Hero Section */}
       <section className="relative pt-32 pb-16 bg-gradient-to-br from-african-purple to-african-teal text-white">
         <div className="container-custom">
@@ -182,7 +182,7 @@ export default function Solutions() {
               We identify critical challenges and build intelligent solutions that create measurable impact.
             </p>
           </div>
-          
+
           <div className="space-y-16">
             {solutions.map((sector, index) => (
               <div key={sector.id} id={sector.id} className="scroll-mt-20">
@@ -195,7 +195,7 @@ export default function Solutions() {
                       </div>
                       <h3 className="text-3xl font-bold text-gray-900">{sector.title}</h3>
                     </div>
-                    
+
                     <div className="space-y-4">
                       <h4 className="text-xl font-semibold text-gray-900">Key Challenges:</h4>
                       <ul className="space-y-3">
@@ -221,9 +221,9 @@ export default function Solutions() {
                             </div>
                             <h5 className="text-xl font-bold text-gray-900">{solution.name}</h5>
                           </div>
-                          
+
                           <p className="text-gray-600 mb-4 leading-relaxed">{solution.description}</p>
-                          
+
                           <div className="space-y-4">
                             <div>
                               <h6 className="font-semibold text-gray-900 mb-2">Key Features:</h6>
@@ -236,14 +236,14 @@ export default function Solutions() {
                                 ))}
                               </ul>
                             </div>
-                            
+
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                                              <div className="bg-african-teal bg-opacity-10 rounded-lg p-3">
-                  <p className="text-sm font-semibold text-african-teal">Impact</p>
+                              <div className="bg-african-teal bg-opacity-10 rounded-lg p-3">
+                                <p className="text-sm font-semibold text-african-teal">Impact</p>
                                 <p className="text-sm text-gray-700">{solution.impact}</p>
                               </div>
-                                              <div className="bg-african-purple bg-opacity-10 rounded-lg p-3">
-                  <p className="text-sm font-semibold text-african-purple">Reach</p>
+                              <div className="bg-african-purple bg-opacity-10 rounded-lg p-3">
+                                <p className="text-sm font-semibold text-african-purple">Reach</p>
                                 <p className="text-sm text-gray-700">{solution.stats}</p>
                               </div>
                             </div>
@@ -270,7 +270,7 @@ export default function Solutions() {
               Real results from real solutions built for African contexts.
             </p>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center">
               <div className="text-4xl md:text-5xl font-bold mb-2">15+</div>
@@ -299,12 +299,12 @@ export default function Solutions() {
             <h2 className="text-3xl md:text-5xl font-display font-bold">
               Ready to Implement These Solutions?
             </h2>
-            
+
             <p className="text-xl text-gray-300 leading-relaxed">
-              Whether you're a government agency, healthcare provider, educational institution, or agricultural organization, 
+              Whether you're a government agency, healthcare provider, educational institution, or agricultural organization,
               we can customize these solutions for your specific needs.
             </p>
-            
+
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <a href="/contact" className="btn-accent text-lg px-8 py-4">
                 Get Started Today
