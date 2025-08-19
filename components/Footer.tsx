@@ -17,7 +17,7 @@ const Footer = () => {
               <span className="font-display font-bold text-xl">W&B</span>
             </div>
             <p className="text-gray-300 text-sm leading-relaxed">
-              Real Solutions for Africa. Powered by Intelligence. We use AI and human-centered design to solve Africa's most urgent challenges.
+              Redefining What’s Possible for Africa. Africa, Reimagined. We harness AI and human-centered design to transform Africa’s most pressing challenges into opportunities — from health to logistics, education to emergency response, and beyond.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-african-teal transition-colors duration-300">

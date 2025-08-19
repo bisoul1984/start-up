@@ -70,22 +70,19 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       <Navigation />
-      
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center gradient-bg overflow-hidden">
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="container-custom relative z-10 text-center text-white">
           <div className="max-w-4xl mx-auto space-y-8">
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-display font-bold leading-tight animate-fade-in">
-              Real Solutions for Africa.
-              <br />
-                                        <span className="text-african-purple">Powered by Intelligence.</span>
+              Redefining What’s Possible for Africa.<br />
+              <span className="text-african-purple">Africa, Reimagined.</span>
             </h1>
-            
             <p className="text-xl md:text-2xl text-gray-100 max-w-3xl mx-auto leading-relaxed animate-slide-up">
-              We use AI and human-centered design to solve Africa's most urgent challenges — from health to logistics, education to emergency response.
+              We harness AI and human-centered design to transform Africa’s most pressing challenges into opportunities — from health to logistics, education to emergency response, and beyond.
             </p>
-            
+
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-slide-up">
               <Link href="/contact" className="btn-accent text-lg px-8 py-4">
                 Partner With Us
@@ -97,11 +94,11 @@ export default function Home() {
             </div>
           </div>
         </div>
-        
+
         {/* Floating Elements */}
         <div className="absolute top-20 left-10 w-20 h-20 bg-white/10 rounded-full animate-bounce-slow"></div>
-                            <div className="absolute bottom-20 right-10 w-16 h-16 bg-african-teal/20 rounded-full animate-bounce-slow" style={{animationDelay: '1s'}}></div>
-        <div className="absolute top-1/2 left-20 w-12 h-12 bg-white/5 rounded-full animate-bounce-slow" style={{animationDelay: '2s'}}></div>
+        <div className="absolute bottom-20 right-10 w-16 h-16 bg-african-teal/20 rounded-full animate-bounce-slow" style={{ animationDelay: '1s' }}></div>
+        <div className="absolute top-1/2 left-20 w-12 h-12 bg-white/5 rounded-full animate-bounce-slow" style={{ animationDelay: '2s' }}></div>
       </section>
 
       {/* Mission Section */}
@@ -111,16 +108,16 @@ export default function Home() {
             <h2 className="text-3xl md:text-5xl font-display font-bold text-gray-900">
               Our Mission
             </h2>
-            
+
             <div className="bg-gradient-to-r from-african-purple to-african-teal p-8 rounded-2xl text-white">
               <p className="text-xl md:text-2xl font-semibold mb-4">
                 "We are an African innovation company solving real-world problems through scalable, tech-driven solutions."
               </p>
             </div>
-            
+
             <p className="text-lg text-gray-600 leading-relaxed">
-              Africa doesn't lack ideas. It lacks access, investment, and scalable systems. We're changing that. 
-              Our mission is to build the infrastructure and solutions that will power Africa's next generation 
+              Africa doesn't lack ideas. It lacks access, investment, and scalable systems. We're changing that.
+              Our mission is to build the infrastructure and solutions that will power Africa's next generation
               of growth, ensuring that local innovators have the tools they need to solve local problems.
             </p>
           </div>
@@ -138,7 +135,7 @@ export default function Home() {
               We focus on the most critical areas where technology can create immediate, measurable impact across Africa.
             </p>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {sectors.map((sector, index) => (
               <div key={index} className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
@@ -164,7 +161,7 @@ export default function Home() {
               Our most impactful innovations that are already changing lives across Africa.
             </p>
           </div>
-          
+
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             {flagshipSolutions.map((solution, index) => (
               <div key={index} className="bg-gradient-to-br from-gray-50 to-white rounded-2xl p-8 border border-gray-200 hover:shadow-xl transition-all duration-300">
@@ -190,16 +187,16 @@ export default function Home() {
             <h2 className="text-3xl md:text-5xl font-display font-bold">
               Why We Exist
             </h2>
-            
+
             <div className="bg-white/10 backdrop-blur-custom p-8 rounded-2xl">
               <p className="text-xl md:text-2xl font-semibold leading-relaxed">
                 "Africa doesn't lack ideas. It lacks access, investment, and scalable systems. We're changing that."
               </p>
             </div>
-            
+
             <p className="text-lg text-gray-100 leading-relaxed">
-              We believe in Africa's potential to solve its own challenges. Our role is to provide the technology, 
-              infrastructure, and support that local innovators need to create lasting change. We're not just 
+              We believe in Africa's potential to solve its own challenges. Our role is to provide the technology,
+              infrastructure, and support that local innovators need to create lasting change. We're not just
               building solutions — we're building the foundation for Africa's digital future.
             </p>
           </div>
@@ -213,12 +210,12 @@ export default function Home() {
             <h2 className="text-3xl md:text-5xl font-display font-bold">
               Ready to Build the Future?
             </h2>
-            
+
             <p className="text-xl text-gray-300 leading-relaxed">
-              Whether you're a government agency, global investor, or social impact organization, 
+              Whether you're a government agency, global investor, or social impact organization,
               we're building the systems that change lives. Let's build them together.
             </p>
-            
+
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Link href="/contact" className="btn-accent text-lg px-8 py-4">
                 Work With Us
