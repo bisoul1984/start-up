@@ -172,13 +172,13 @@ export default function Solutions() {
       </section>
 
       {/* Solutions Overview */}
-      <section className="section-padding bg-white">
+      <section className="section-padding bg-white dark:bg-gray-900">
         <div className="container-custom">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-5xl font-display font-bold text-gray-900 mb-6">
+            <h2 className="text-3xl md:text-5xl font-display font-bold text-gray-900 dark:text-white mb-6">
               Problems We Solve
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
               We identify critical challenges and build intelligent solutions that create measurable impact.
             </p>
           </div>
@@ -193,16 +193,16 @@ export default function Solutions() {
                       <div className={`w-16 h-16 ${sector.bgColor} bg-opacity-10 rounded-xl flex items-center justify-center`}>
                         <sector.icon className={`w-8 h-8 ${sector.color}`} />
                       </div>
-                      <h3 className="text-3xl font-bold text-gray-900">{sector.title}</h3>
+                      <h3 className="text-3xl font-bold text-gray-900 dark:text-white">{sector.title}</h3>
                     </div>
                     
                     <div className="space-y-4">
-                      <h4 className="text-xl font-semibold text-gray-900">Key Challenges:</h4>
+                      <h4 className="text-xl font-semibold text-gray-900 dark:text-white">Key Challenges:</h4>
                       <ul className="space-y-3">
                         {sector.problems.map((problem, idx) => (
                           <li key={idx} className="flex items-start space-x-3">
                             <div className={`w-2 h-2 ${sector.bgColor} rounded-full mt-2 flex-shrink-0`}></div>
-                            <span className="text-gray-600">{problem}</span>
+                            <span className="text-gray-600 dark:text-gray-300">{problem}</span>
                           </li>
                         ))}
                       </ul>
@@ -211,25 +211,25 @@ export default function Solutions() {
 
                   {/* Solutions */}
                   <div className="space-y-6">
-                    <h4 className="text-xl font-semibold text-gray-900 mb-6">Our Solutions:</h4>
+                    <h4 className="text-xl font-semibold text-gray-900 dark:text-white mb-6">Our Solutions:</h4>
                     <div className="space-y-6">
                       {sector.solutions.map((solution, idx) => (
-                        <div key={idx} className="bg-gradient-to-br from-gray-50 to-white rounded-2xl p-6 border border-gray-200 hover:shadow-lg transition-all duration-300">
+                        <div key={idx} className="bg-gradient-to-br from-gray-50 to-white dark:from-gray-700 dark:to-gray-800 rounded-2xl p-6 border border-gray-200 dark:border-gray-600 hover:shadow-lg transition-all duration-300">
                           <div className="flex items-center space-x-3 mb-4">
                             <div className={`w-10 h-10 ${sector.bgColor} rounded-lg flex items-center justify-center`}>
                               <Brain className="w-5 h-5 text-white" />
                             </div>
-                            <h5 className="text-xl font-bold text-gray-900">{solution.name}</h5>
+                            <h5 className="text-xl font-bold text-gray-900 dark:text-white">{solution.name}</h5>
                           </div>
                           
-                          <p className="text-gray-600 mb-4 leading-relaxed">{solution.description}</p>
+                          <p className="text-gray-600 dark:text-gray-300 mb-4 leading-relaxed">{solution.description}</p>
                           
                           <div className="space-y-4">
                             <div>
-                              <h6 className="font-semibold text-gray-900 mb-2">Key Features:</h6>
+                              <h6 className="font-semibold text-gray-900 dark:text-white mb-2">Key Features:</h6>
                               <ul className="space-y-1">
                                 {solution.features.map((feature, featureIdx) => (
-                                  <li key={featureIdx} className="text-sm text-gray-600 flex items-center space-x-2">
+                                  <li key={featureIdx} className="text-sm text-gray-600 dark:text-gray-300 flex items-center space-x-2">
                                     <Target className="w-3 h-3 text-african-teal" />
                                     <span>{feature}</span>
                                   </li>
@@ -240,11 +240,11 @@ export default function Solutions() {
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                                               <div className="bg-african-teal bg-opacity-10 rounded-lg p-3">
                   <p className="text-sm font-semibold text-african-teal">Impact</p>
-                                <p className="text-sm text-gray-700">{solution.impact}</p>
+                                <p className="text-sm text-gray-700 dark:text-gray-300">{solution.impact}</p>
                               </div>
                                               <div className="bg-african-purple bg-opacity-10 rounded-lg p-3">
                   <p className="text-sm font-semibold text-african-purple">Reach</p>
-                                <p className="text-sm text-gray-700">{solution.stats}</p>
+                                <p className="text-sm text-gray-700 dark:text-gray-300">{solution.stats}</p>
                               </div>
                             </div>
                           </div>

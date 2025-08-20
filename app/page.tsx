@@ -105,10 +105,10 @@ export default function Home() {
       </section>
 
       {/* Mission Section */}
-      <section className="section-padding bg-white">
+      <section className="section-padding bg-white dark:bg-gray-900">
         <div className="container-custom">
           <div className="max-w-4xl mx-auto text-center space-y-8">
-            <h2 className="text-3xl md:text-5xl font-display font-bold text-gray-900">
+            <h2 className="text-3xl md:text-5xl font-display font-bold text-gray-900 dark:text-white">
               Our Mission
             </h2>
             
@@ -118,7 +118,7 @@ export default function Home() {
               </p>
             </div>
             
-            <p className="text-lg text-gray-600 leading-relaxed">
+            <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
               Africa doesn't lack ideas. It lacks access, investment, and scalable systems. We're changing that. 
               Our mission is to build the infrastructure and solutions that will power Africa's next generation 
               of growth, ensuring that local innovators have the tools they need to solve local problems.
@@ -128,25 +128,25 @@ export default function Home() {
       </section>
 
       {/* Sectors Section */}
-      <section className="section-padding bg-gray-50">
+      <section className="section-padding bg-gray-50 dark:bg-gray-800">
         <div className="container-custom">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-5xl font-display font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl md:text-5xl font-display font-bold text-gray-900 dark:text-white mb-4">
               Our Sectors
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
               We focus on the most critical areas where technology can create immediate, measurable impact across Africa.
             </p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {sectors.map((sector, index) => (
-              <div key={index} className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
+              <div key={index} className="bg-white dark:bg-gray-700 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
                 <div className={`w-16 h-16 ${sector.color} bg-opacity-10 rounded-xl flex items-center justify-center mb-6`}>
                   <sector.icon className={`w-8 h-8 ${sector.color}`} />
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-3">{sector.title}</h3>
-                <p className="text-gray-600 leading-relaxed">{sector.description}</p>
+                <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">{sector.title}</h3>
+                <p className="text-gray-600 dark:text-gray-300 leading-relaxed">{sector.description}</p>
               </div>
             ))}
           </div>
@@ -154,25 +154,25 @@ export default function Home() {
       </section>
 
       {/* Flagship Solutions Section */}
-      <section className="section-padding bg-white">
+      <section className="section-padding bg-white dark:bg-gray-900">
         <div className="container-custom">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-5xl font-display font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl md:text-5xl font-display font-bold text-gray-900 dark:text-white mb-4">
               Flagship Solutions
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
               Our most impactful innovations that are already changing lives across Africa.
             </p>
           </div>
           
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             {flagshipSolutions.map((solution, index) => (
-              <div key={index} className="bg-gradient-to-br from-gray-50 to-white rounded-2xl p-8 border border-gray-200 hover:shadow-xl transition-all duration-300">
+              <div key={index} className="bg-gradient-to-br from-gray-50 to-white dark:from-gray-700 dark:to-gray-800 rounded-2xl p-8 border border-gray-200 dark:border-gray-600 hover:shadow-xl transition-all duration-300">
                 <div className={`w-12 h-12 ${solution.color} rounded-lg flex items-center justify-center mb-6`}>
                   <Brain className="w-6 h-6 text-white" />
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-3">{solution.name}</h3>
-                <p className="text-gray-600 mb-4 leading-relaxed">{solution.description}</p>
+                <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-3">{solution.name}</h3>
+                <p className="text-gray-600 dark:text-gray-300 mb-4 leading-relaxed">{solution.description}</p>
                 <div className="space-y-2">
                   <p className="text-sm font-semibold text-african-teal">{solution.impact}</p>
                   <p className="text-lg font-bold text-african-purple">{solution.stats}</p>
