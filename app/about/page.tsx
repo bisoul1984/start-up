@@ -82,7 +82,7 @@ export default function About() {
               About W&B
             </h1>
             <p className="text-xl md:text-2xl text-gray-100 leading-relaxed">
-              We're building Africa's next generation of technology solutions, one innovation at a time.
+              We're building Africa's next generation of technology solutions, transforming challenges into opportunities through innovation.
             </p>
           </div>
         </div>
@@ -93,34 +93,34 @@ export default function About() {
         <div className="container-custom">
           <div className="max-w-4xl mx-auto space-y-12">
             <div className="text-center">
-              <h2 className="text-3xl md:text-5xl font-display font-bold text-gray-900 dark:text-white mb-6">
-                Our Story
-              </h2>
-              <p className="text-xl text-gray-600 dark:text-gray-300 leading-relaxed">
-                Born from frustration with imported solutions that don't fit African contexts.
-              </p>
+                                            <h2 className="text-3xl md:text-5xl font-display font-bold text-gray-900 dark:text-white mb-6">
+                 Our Story
+               </h2>
+               <p className="text-xl text-gray-600 dark:text-gray-300 leading-relaxed">
+                 Born from the realization that Africa needs solutions designed specifically for African contexts.
+               </p>
             </div>
             
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="space-y-6">
-                <h3 className="text-2xl font-bold text-gray-900 dark:text-white">The Beginning</h3>
-                <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                  In 2020, our founders witnessed firsthand how imported technology solutions were failing 
-                  African communities. Whether it was healthcare systems that couldn't handle local conditions, 
-                  or educational platforms that didn't account for connectivity challenges, the gap was clear.
-                </p>
-                <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                  We realized that Africa doesn't need more foreign solutions — it needs local innovators 
-                  with the right tools and support to build solutions that actually work for African contexts.
-                </p>
+                                                  <h3 className="text-2xl font-bold text-gray-900 dark:text-white">The Beginning</h3>
+                 <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
+                   In 2020, our founders witnessed firsthand how imported technology solutions were failing 
+                   African communities. Healthcare systems couldn't handle local conditions, and educational 
+                   platforms didn't account for connectivity challenges. The gap was undeniable.
+                 </p>
+                 <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
+                   We realized that Africa doesn't need more foreign solutions — it needs local innovators 
+                   equipped with the right tools and support to build solutions that truly work for African contexts.
+                 </p>
               </div>
               
               <div className="bg-gradient-to-br from-african-purple to-african-teal p-8 rounded-2xl text-white">
-                <h4 className="text-xl font-bold mb-4">Our Vision</h4>
-                <p className="text-lg leading-relaxed">
-                  "To become Africa's leading technology innovation company, building solutions that not only 
-                  solve today's problems but create the foundation for tomorrow's opportunities."
-                </p>
+                                                  <h4 className="text-xl font-bold mb-4">Our Vision</h4>
+                 <p className="text-lg leading-relaxed">
+                   To become Africa's leading technology innovation company, building solutions that not only 
+                   solve today's challenges but create the foundation for tomorrow's opportunities.
+                 </p>
               </div>
             </div>
           </div>
@@ -135,7 +135,7 @@ export default function About() {
               Our Values
             </h2>
             <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              The principles that guide everything we do and every solution we build.
+              The core principles that guide every decision we make and every solution we create.
             </p>
           </div>
           
@@ -161,7 +161,7 @@ export default function About() {
               Our Team
             </h2>
             <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              Meet the passionate innovators driving Africa's technological transformation.
+              Meet the passionate innovators who are driving Africa's technological transformation forward.
             </p>
           </div>
           
@@ -191,7 +191,7 @@ export default function About() {
               Our Partners
             </h2>
             <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              We collaborate with leading organizations to maximize our impact across Africa.
+              We collaborate with leading organizations to amplify our impact across the African continent.
             </p>
           </div>
           

@@ -37,7 +37,7 @@ const Navigation = () => {
             <img 
               src="/logo1.png" 
               alt="W&B TECHNOLOGIES" 
-              className="h-10 lg:h-14 w-auto object-contain filter brightness-110 contrast-110 hover:scale-105 transition-transform duration-200"
+              className="h-14 lg:h-20 w-auto object-contain filter brightness-125 contrast-150 hover:scale-105 transition-transform duration-200 rounded-full"
             />
           </Link>
 

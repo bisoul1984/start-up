@@ -77,13 +77,15 @@ export default function Home() {
         <div className="container-custom relative z-10 text-center text-white">
           <div className="max-w-4xl mx-auto space-y-8">
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-display font-bold leading-tight animate-fade-in">
-              Real Solutions for Africa.
-              <br />
-                                        <span className="text-african-purple">Powered by Intelligence.</span>
+              Solving Africa's Biggest Challenges with AI
             </h1>
             
+            <h2 className="text-2xl md:text-4xl font-display font-bold text-african-purple animate-slide-up">
+              Africa, Reimagined.
+            </h2>
+            
             <p className="text-xl md:text-2xl text-gray-100 max-w-3xl mx-auto leading-relaxed animate-slide-up">
-              We use AI and human-centered design to solve Africa's most urgent challenges — from health to logistics, education to emergency response.
+              Intelligent Solutions for Africa's Systemic Challenges. Transforming health, logistics, and education through AI and human-centered design.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-slide-up">
@@ -114,14 +116,14 @@ export default function Home() {
             
             <div className="bg-gradient-to-r from-african-purple to-african-teal p-8 rounded-2xl text-white">
               <p className="text-xl md:text-2xl font-semibold mb-4">
-                "We are an African innovation company solving real-world problems through scalable, tech-driven solutions."
+                We are an African innovation company solving real-world problems through scalable, tech-driven solutions.
               </p>
             </div>
             
             <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
-              Africa doesn't lack ideas. It lacks access, investment, and scalable systems. We're changing that. 
-              Our mission is to build the infrastructure and solutions that will power Africa's next generation 
-              of growth, ensuring that local innovators have the tools they need to solve local problems.
+              Africa doesn't lack ideas—it lacks access, investment, and scalable systems. We're here to change that. 
+              Our mission is to build the infrastructure and solutions that will power Africa's next wave of growth, 
+              equipping local innovators with the tools they need to solve local challenges and create global impact.
             </p>
           </div>
         </div>
@@ -193,7 +195,7 @@ export default function Home() {
             
             <div className="bg-white/10 backdrop-blur-custom p-8 rounded-2xl">
               <p className="text-xl md:text-2xl font-semibold leading-relaxed">
-                "Africa doesn't lack ideas. It lacks access, investment, and scalable systems. We're changing that."
+                Africa doesn't lack ideas. It lacks access, investment, and scalable systems. We're changing that.
               </p>
             </div>
             

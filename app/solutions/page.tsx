@@ -175,12 +175,12 @@ export default function Solutions() {
       <section className="section-padding bg-white dark:bg-gray-900">
         <div className="container-custom">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-5xl font-display font-bold text-gray-900 dark:text-white mb-6">
-              Problems We Solve
-            </h2>
-            <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              We identify critical challenges and build intelligent solutions that create measurable impact.
-            </p>
+                                      <h2 className="text-3xl md:text-5xl font-display font-bold text-gray-900 dark:text-white mb-6">
+               Problems We Solve
+             </h2>
+             <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+               We identify critical challenges and build intelligent solutions that create measurable impact.
+             </p>
           </div>
           
           <div className="space-y-16">
@@ -193,16 +193,16 @@ export default function Solutions() {
                       <div className={`w-16 h-16 ${sector.bgColor} bg-opacity-10 rounded-xl flex items-center justify-center`}>
                         <sector.icon className={`w-8 h-8 ${sector.color}`} />
                       </div>
-                      <h3 className="text-3xl font-bold text-gray-900 dark:text-white">{sector.title}</h3>
+                                                                    <h3 className="text-3xl font-bold text-gray-900 dark:text-white">{sector.title}</h3>
                     </div>
                     
                     <div className="space-y-4">
-                      <h4 className="text-xl font-semibold text-gray-900 dark:text-white">Key Challenges:</h4>
+                                                                    <h4 className="text-xl font-semibold text-gray-900 dark:text-white">Key Challenges:</h4>
                       <ul className="space-y-3">
                         {sector.problems.map((problem, idx) => (
                           <li key={idx} className="flex items-start space-x-3">
                             <div className={`w-2 h-2 ${sector.bgColor} rounded-full mt-2 flex-shrink-0`}></div>
-                            <span className="text-gray-600 dark:text-gray-300">{problem}</span>
+                                                         <span className="text-lg text-gray-600 dark:text-gray-300">{problem}</span>
                           </li>
                         ))}
                       </ul>
