@@ -201,7 +201,7 @@ export default function Solutions() {
                       <ul className="space-y-3">
                         {sector.problems.map((problem, idx) => (
                           <li key={idx} className="flex items-start space-x-3">
-                            <div className={`w-2 h-2 ${sector.bgColor} rounded-full mt-2 flex-shrink-0`}></div>
+                            <div className={`w-2 h-2 ${sector.bgColor} dark:bg-white rounded-full mt-2 flex-shrink-0`}></div>
                                                          <span className="text-lg text-gray-600 dark:text-gray-300">{problem}</span>
                           </li>
                         ))}

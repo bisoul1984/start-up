@@ -244,29 +244,29 @@ export default function Contact() {
             {/* Contact Information */}
             <div className="space-y-8">
               <div>
-                <h2 className="text-3xl font-display font-bold text-gray-900 mb-4">
+                <h2 className="text-3xl font-display font-bold text-gray-900 dark:text-white mb-4">
                   Contact Information
                 </h2>
-                <p className="text-gray-600 leading-relaxed">
+                <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
                   Get in touch with us through any of these channels. We're here to help.
                 </p>
               </div>
 
               <div className="space-y-6">
                 {contactInfo.map((info, index) => (
-                  <div key={index} className="bg-gray-50 rounded-2xl p-6 hover:shadow-lg transition-all duration-300">
+                  <div key={index} className="bg-gray-50 dark:bg-gray-700 rounded-2xl p-6 hover:shadow-lg transition-all duration-300">
                     <div className="flex items-start space-x-4">
                       <div className="w-12 h-12 bg-african-purple bg-opacity-10 rounded-xl flex items-center justify-center flex-shrink-0">
                         <info.icon className="w-6 h-6 text-white" />
                       </div>
                       <div className="flex-1">
-                        <h3 className="text-lg font-semibold text-gray-900 mb-2">{info.title}</h3>
+                        <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">{info.title}</h3>
                         <div className="space-y-1">
                           {info.details.map((detail, idx) => (
-                            <p key={idx} className="text-gray-600">{detail}</p>
+                            <p key={idx} className="text-gray-600 dark:text-gray-300">{detail}</p>
                           ))}
                         </div>
-                        <p className="text-sm text-gray-500 mt-2">{info.description}</p>
+                        <p className="text-sm text-gray-500 dark:text-gray-400 mt-2">{info.description}</p>
                       </div>
                     </div>
                   </div>
@@ -290,31 +290,31 @@ export default function Contact() {
       </section>
 
       {/* Partnership Types */}
-      <section className="section-padding bg-gray-50">
+      <section className="section-padding bg-gray-50 dark:bg-gray-800">
         <div className="container-custom">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-5xl font-display font-bold text-gray-900 mb-6">
+            <h2 className="text-3xl md:text-5xl font-display font-bold text-gray-900 dark:text-white mb-6">
               Partnership Opportunities
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
               We offer various partnership models to suit different organizations and goals.
             </p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {partnershipTypes.map((type, index) => (
-              <div key={index} className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300">
+              <div key={index} className="bg-white dark:bg-gray-700 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300">
                 <div className="w-16 h-16 bg-african-teal bg-opacity-10 rounded-xl flex items-center justify-center mb-6">
                   <type.icon className="w-8 h-8 text-african-teal" />
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-3">{type.title}</h3>
-                <p className="text-gray-600 mb-6 leading-relaxed">{type.description}</p>
+                <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">{type.title}</h3>
+                <p className="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">{type.description}</p>
                 <div className="space-y-2">
-                  <h4 className="font-semibold text-gray-900">Benefits:</h4>
+                  <h4 className="font-semibold text-gray-900 dark:text-white">Benefits:</h4>
                   <ul className="space-y-1">
                     {type.benefits.map((benefit, idx) => (
-                      <li key={idx} className="text-sm text-gray-600 flex items-center space-x-2">
-                        <div className="w-2 h-2 bg-african-teal rounded-full"></div>
+                      <li key={idx} className="text-sm text-gray-600 dark:text-gray-300 flex items-center space-x-2">
+                        <div className="w-2 h-2 bg-african-teal dark:bg-white rounded-full"></div>
                         <span>{benefit}</span>
                       </li>
                     ))}

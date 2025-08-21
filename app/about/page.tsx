@@ -7,14 +7,14 @@ export default function About() {
     {
       name: 'Wondwossen Hailhu',
       role: 'CEO & Co-Founder',
-      bio: 'Software engineer and AWS certified professional with management experience and over five years of experience.',
-      expertise: 'Software Engineering, AWS Cloud, Management'
+      bio: 'AWS-certified Software Engineer with over five years of experience, blending strong technical expertise with proven management and leadership skills.',
+      expertise: 'Software Engineering · AWS Cloud Practitioner · Management'
     },
     {
       name: 'Bisrate Tadesse',
       role: 'Co-Founder',
-      bio: 'Experienced software engineer with strong project management background.',
-      expertise: 'Software Engineering, Project Management, Product Development'
+      bio: 'Experienced Software Engineer with a strong project management background. Proven track record in building scalable solutions, leading teams, and driving product development from concept to delivery.',
+      expertise: 'Software Engineering · Project Management · Product Development'
     },
     {
       name: 'Girma Tadesse',
@@ -82,7 +82,7 @@ export default function About() {
               About W&B
             </h1>
             <p className="text-xl md:text-2xl text-gray-100 leading-relaxed">
-              We're building Africa's next generation of technology solutions, transforming challenges into opportunities through innovation.
+              We're building Africa's next generation of technology solutions, transforming complex challenges into powerful opportunities through cutting-edge innovation.
             </p>
           </div>
         </div>
@@ -97,7 +97,7 @@ export default function About() {
                  Our Story
                </h2>
                <p className="text-xl text-gray-600 dark:text-gray-300 leading-relaxed">
-                 Born from the realization that Africa needs solutions designed specifically for African contexts.
+                 Born from the fundamental understanding that Africa requires solutions crafted specifically for African realities and contexts.
                </p>
             </div>
             
@@ -105,21 +105,21 @@ export default function About() {
               <div className="space-y-6">
                                                   <h3 className="text-2xl font-bold text-gray-900 dark:text-white">The Beginning</h3>
                  <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                   In 2020, our founders witnessed firsthand how imported technology solutions were failing 
-                   African communities. Healthcare systems couldn't handle local conditions, and educational 
-                   platforms didn't account for connectivity challenges. The gap was undeniable.
+                   In 2020, our founders witnessed firsthand how imported technology solutions were systematically failing 
+                   African communities. Healthcare systems couldn't adapt to local conditions, and educational 
+                   platforms ignored connectivity challenges. The gap was not just visible — it was critical.
                  </p>
                  <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                   We realized that Africa doesn't need more foreign solutions — it needs local innovators 
-                   equipped with the right tools and support to build solutions that truly work for African contexts.
+                   We realized that Africa doesn't need more foreign solutions — it needs empowered local innovators 
+                   equipped with the right tools and support to build solutions that genuinely work for African contexts.
                  </p>
               </div>
               
               <div className="bg-gradient-to-br from-african-purple to-african-teal p-8 rounded-2xl text-white">
                                                   <h4 className="text-xl font-bold mb-4">Our Vision</h4>
                  <p className="text-lg leading-relaxed">
-                   To become Africa's leading technology innovation company, building solutions that not only 
-                   solve today's challenges but create the foundation for tomorrow's opportunities.
+                   To become Africa's premier technology innovation company, building solutions that not only 
+                   solve today's challenges but create the foundation for tomorrow's limitless opportunities.
                  </p>
               </div>
             </div>
@@ -135,7 +135,7 @@ export default function About() {
               Our Values
             </h2>
             <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              The core principles that guide every decision we make and every solution we create.
+              The fundamental principles that guide every strategic decision we make and every innovative solution we create.
             </p>
           </div>
           
@@ -161,7 +161,7 @@ export default function About() {
               Our Team
             </h2>
             <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              Meet the passionate innovators who are driving Africa's technological transformation forward.
+              Meet the passionate innovators who are spearheading Africa's technological transformation and driving sustainable progress.
             </p>
           </div>
           
@@ -219,7 +219,7 @@ export default function About() {
               Our Impact
             </h2>
             <p className="text-xl text-gray-100 max-w-3xl mx-auto">
-              Numbers that tell the story of lives changed and communities transformed.
+              Numbers that tell the compelling story of lives transformed and communities empowered.
             </p>
           </div>
           
